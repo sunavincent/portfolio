@@ -1,16 +1,3 @@
-// $(document).ready(function () {
-//     // Function to check screen width and switch image to square type
-
-//     $(function() {
-//         if($(window).width() < 568){
-//             $(".img-fluid").each(function(){
-//                 $(this).attr("src","./assets/images/mmr2.jpg");
-//             })
-
-//         }
-//     })
-  
-//   });
 
 $(document).ready(function () {
     let resizeTimer;
