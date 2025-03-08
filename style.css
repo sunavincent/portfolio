@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  main {
+    flex:1;
+  }
+  
+  .full-viewport {
+    width: 100vw;
+    height: 100vh; /* Ensure this div takes up full viewport */
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text inside the container */
+  }
+
+
+  /* Footer styling */
+footer {
+    margin-top: auto; /* Push footer to the bottom */
+  }
